@@ -1,0 +1,11 @@
+[
+    { "id": 1, "name": "Laptop", "price": 1000 },
+    { "id": 2, "name": "Smartphone", "price": 500 },
+    { "id": 3, "name": "Headphones", "price": 100 },
+    { "id": 4, "name": "Keyboard", "price": 50 },
+    { "id": 5, "name": "Mouse", "price": 30 },
+    { "id": 6, "name": "Monitor", "price": 200 },
+    { "id": 7, "name": "Printer", "price": 300 },
+    { "id": 8, "name": "Gaming Console", "price": 400 }
+  ]
+  

@@ -1,0 +1,34 @@
+[
+    {
+      "id": "ORD001",
+      "date": "2024-02-01",
+      "total": 1200,
+      "status": "Delivered",
+      "items": [
+        { "name": "Laptop", "quantity": 1 },
+        { "name": "Headphones", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "ORD002",
+      "date": "2024-02-05",
+      "total": 530,
+      "status": "Shipped",
+      "items": [
+        { "name": "Smartphone", "quantity": 1 },
+        { "name": "Mouse", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "ORD003",
+      "date": "2024-02-10",
+      "total": 750,
+      "status": "Processing",
+      "items": [
+        { "name": "Monitor", "quantity": 1 },
+        { "name": "Keyboard", "quantity": 1 },
+        { "name": "Printer", "quantity": 1 }
+      ]
+    }
+  ]
+  
