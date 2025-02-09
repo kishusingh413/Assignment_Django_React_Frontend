@@ -5,8 +5,8 @@
   }
   
   .support-btn {
-    background: #007bff;
-    color: white;
+    background: #4d6988;
+    color: rgb(121, 117, 117);
     border: none;
     padding: 10px 15px;
     border-radius: 50px;
@@ -16,6 +16,6 @@
   }
   
   .support-btn:hover {
-    background: #0056b3;
+    background: #48698f;
   }
   
