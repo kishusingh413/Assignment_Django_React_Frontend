@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import ChatWindow from "./ChatWindow";
+import "../styles/SupportButton.css"; // Style separately
 
 const SupportButton = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <div className="support-container">
-      <button onClick={() => setOpen(!open)}>Contact Support</button>
-      {open && <ChatWindow />}
+      {open && <ChatWindow closeChat={() => setOpen(false)} />}
+      <button className="support-btn" onClick={() => setOpen(!open)}>
+        {open ? "Close Chat" : "Contact Support"}
+      </button>
     </div>
   );
 };
