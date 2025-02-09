@@ -1,70 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### 📌 **`README.md`**  
+```md
+# 🛍 Order Management System - React App
 
-In the project directory, you can run:
+## 📌 Overview
+This is a **React-based Order Management System** that allows users to:
+- 📋 **View purchased orders** with expandable details.
+- 🛒 **Create a new order** with a drag-and-drop interface.
+- 💬 **Contact support via a chat window** at the bottom-right corner.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Features
+### ✅ **Order List (Homepage)**
+- Displays all purchased orders.
+- Expandable **order details** section.
+- **New Order** button to create an order.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ **New Order Page**
+- **Drag & Drop** functionality for adding items to the cart.
+- **Real-time updates** when adding/removing items.
+- **Quantity management** for cart items.
+- **Form validation** to ensure valid order submission.
 
-### `npm test`
+### ✅ **Support Chat**
+- Floating **"Contact Support"** button.
+- Expandable **chat window** for customer queries.
+- Minimization/maximization functionality.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🚀 **Getting Started**
+### 1️⃣ **Install Dependencies**
+Make sure you have **Node.js** installed. Then, run:
+```sh
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2️⃣ **Start the Development Server**
+```sh
+npm start
+```
+The app will run at **`http://localhost:3000/`**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3️⃣ **Build for Production**
+```sh
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ **Tech Stack**
+- **Frontend:** React.js, React Router
+- **State Management:** Context API
+- **Drag & Drop:** React DnD
+- **Styling:** CSS Modules, Tailwind CSS
+- **Data Handling:** JSON-based mock database
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 **Usage Guide**
+1. **Homepage (`/`)**
+   - View all orders.
+   - Click on an order to expand details.
+   - Click "New Order" to create an order.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **New Order Page (`/new-order`)**
+   - Drag items from the available list to the cart.
+   - Adjust item quantities.
+   - Click "Place Order" to confirm.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Order Details (`/order-details`)**
+   - Redirects after placing an order.
+   - Saves the order and updates the homepage.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Support Chat**
+   - Click the floating button in the bottom-right corner.
+   - Send messages and receive automated responses.
+   - Minimize or close the chat.
